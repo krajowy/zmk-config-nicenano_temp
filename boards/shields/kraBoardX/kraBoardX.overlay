@@ -13,17 +13,17 @@
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-direct";
         input-gpios
-            = <&xiao_d 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&xiao_d 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&xiao_d 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&xiao_d 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&xiao_d 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&xiao_d 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&xiao_d 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&xiao_d 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&xiao_d 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&xiao_d 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&xiao_d 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            = <&mcp_io 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&mcp_io 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&mcp_io 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&mcp_io 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&mcp_io 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&mcp_io 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&mcp_io 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&mcp_io 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&mcp_io 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&mcp_io 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&mcp_io 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
     };
     default_transform: kaymap_transform_0 {
@@ -35,3 +35,5 @@
         >;
     };
 };
+
+
